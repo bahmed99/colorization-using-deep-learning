@@ -1,0 +1,22 @@
+.modal-content {
+  padding: 20px;
+  width: 100%;
+  display: flex; /* Ajout de cette propriété */
+  flex-direction: column; /* Aligner les éléments verticalement */
+  justify-content: space-between; /* Espacement des éléments */
+  align-items: center; /* Centrage horizontal */
+}
+
+
+
+.reference_btn {
+  margin-top: 20px;
+  width: 20%;
+  height: 40px;
+  background-color: var(--color1);
+  cursor: pointer;
+  font-family: var(--font1);
+  font-size: 1.125rem;
+  color: white;
+  margin-bottom: 20px;
+}

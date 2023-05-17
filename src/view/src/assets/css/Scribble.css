@@ -1,0 +1,129 @@
+@import "root.css";
+
+.dataset-list img {
+    max-width: 90%;
+    max-height: 20vh;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dataset-list {
+    height: 90vh;
+    width: 120px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px;
+  /* background-color: #43be8b; */
+  background-color: #dae2e5;
+}
+
+.dataset-list .scribble-image-scroller {
+    overflow-y: scroll;
+}
+
+.dataset-list li{
+    list-style: none;
+}
+
+.dataset-list h6{
+    margin : 0;
+}
+
+.scribble_container {
+    /* background: #e0e0e0; */
+    background: var(--color3);
+    margin: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 120px 1fr 180px;
+}
+
+#drawing-board{
+    touch-action: pinch-zoom;
+    cursor: crosshair;
+    position: absolute;
+    left:140px;
+    z-index: 10;
+    margin-top: 150px;
+}
+
+#toolbar {
+    align-content: center;
+    padding: 5px;
+    width: 170px;
+    background-color: transparent;
+    /* background: linear-gradient(25deg,
+    red, orange, yellow , green, blue, purple);
+    box-shadow:  10px 0px 20px #8a8989; */
+    padding-top: 30px;
+}
+
+#toolbar > * {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#toolbar input {
+    width: 80%;
+    background-color: #e4edf0;
+    border: 1px solid #E29578;
+} 
+
+#toolbar button {
+    color : black;
+    transition:0.75s;
+    margin-top:20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #E29578;
+    border-radius: 25px;
+    background-color: #e4edf0;
+}
+
+#toolbar button:hover{
+    transition:0.75s;
+    background-color: #e4edf0;
+}
+
+#lineWidth{
+    height:15px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background: var(--color3);
+    
+}
+
+#lineWidth::-moz-range-thumb, #lineWidth::-webkit-slider-thumb {
+    background: black   ;
+    border : none;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    
+}
+
+#img_scribble{
+    
+  max-width: 40%;
+  max-height: 90%;
+  display: block;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upload, #upload-canvas{
+  display: none;
+}
+
+#toolbar label{
+    padding-top: 20px;
+}
+
+#eraser-brush{
+    font-size: 25px;
+}

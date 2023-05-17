@@ -1,0 +1,91 @@
+@import "root.css";
+
+.Wrapper {
+    box-shadow: 0 2px 4px 0, 2, 3, 0.15;
+    margin: 2rem auto;
+    width: 90%;
+    min-height: 1rem;
+   
+}
+@media (min-width: 56rem) {
+    .Wrapper {
+        width: 80%;
+   }
+}
+.Visualize-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .Visualize-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }  
+  .Visualize-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Visualize-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+  
+  .Visualize-card button {
+    background-color: var(--color2);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: var(--font1);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .Visualize-card button:hover {
+    background-color: #0052a3;
+  }
+  .Visualize-card span.fields_values {
+    color: var(--color5);
+  }
+  .Visualize-card p.fields_params{
+  word-wrap: break-word;
+  word-break: break-word;
+  }
+  
+  .scribble_btn {
+    width: 20%;
+    height: 40px;
+    background-color: var(--color1) !important;
+    cursor: pointer;
+    font-family: var(--font1);
+    margin-left: 20px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.scribble_btn:hover {
+    background-color: var(--color5) !important;
+}

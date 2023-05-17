@@ -1,0 +1,47 @@
+
+
+  @font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima-nova-light-webfont.woff');
+  }
+
+ 
+:root{
+    --color1:#1f5156;
+    --color2: #87c5be;
+    --color3: #eef4f6;
+    --color4: #FFDDD2;
+    --color5:  #E29578;
+    --font1: 'Proxima Nova';
+  
+}
+
+
+h1 , h2, h3,h4,h4 ,p{
+    font-family: 'Proxima Nova';
+}
+
+/* h1 {
+    color: var(--color1);
+    text-align: center;
+    font-family: var(--font1);
+} */
+
+label {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: var(--font1);
+  padding: 5px;
+}
+
+input, button {
+  cursor: pointer;
+}
+
+input[type=text]{
+  cursor: auto;
+}
+
+
+

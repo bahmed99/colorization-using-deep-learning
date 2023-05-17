@@ -1,0 +1,5 @@
+@import "root.css";
+
+.home_body{
+    background-color: var(--color3);
+}

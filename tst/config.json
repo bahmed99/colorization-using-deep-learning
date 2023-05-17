@@ -1,0 +1,19 @@
+{
+    "tests" : {
+        "thresholds" : {
+            "proportion_of_different_values": 0,
+            "SSIM" : 1
+        }
+    },
+
+    "methods" : {
+        "ECCV16" : {
+            "folder_repository": "imageECCV16/",
+            "folder_interface": "imageInterfaceECCV16/"
+        },
+        "SIGGRAPH" : {
+            "folder_repository": "imageSIGGRAPH/",
+            "folder_interface": "imageInterfaceSIGGRAPH/"
+        }
+    }
+}

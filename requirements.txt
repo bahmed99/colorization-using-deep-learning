@@ -1,0 +1,21 @@
+opencv-python
+flask_cors
+flask_restful
+tensorflow
+flask_socketio
+torch
+scikit-image
+numpy
+matplotlib
+Pillow
+torchvision
+kornia
+torch-scatter
+pyyaml
+
+# Unicolor requirements
+nltk
+clip
+numba
+tqdm
+pytorch-lightning

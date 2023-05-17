@@ -1,0 +1,62 @@
+@import "root.css";
+
+.header-wraper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.description {
+    font-size: 1.6rem;
+    color: black;
+    margin-top: 20px;
+    text-shadow: 5px 5px 6px white; 
+
+}
+
+
+.title-welcome{
+    font-size: 3.2rem;
+    text-shadow: 5px 5px 6px var(--color5); 
+}
+
+.name {
+    color: var(--color2);
+
+}
+
+.btn-main-offer {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #2ecc71;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-main-offer:hover {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+@media  only screen and (max-width: 800px) {
+    .description {
+        font-size: 1rem;
+        
+    
+    }
+    
+    
+    .title-welcome{
+        font-size: 2rem;
+        
+    }
+    
+}
